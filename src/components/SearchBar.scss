@@ -1,0 +1,14 @@
+.input-search {
+  width: calc(100% + 14px);
+  height: 20px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid grey;
+
+  &:focus {
+    outline: none;
+    border: 1px solid blue;
+  }
+}
